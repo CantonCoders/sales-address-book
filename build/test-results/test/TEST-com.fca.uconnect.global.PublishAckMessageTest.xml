@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fca.uconnect.global.PublishAckMessageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-17T16:12:56" hostname="CITMN5CG81002XZ" time="0.679">
+  <properties/>
+  <testcase name="isAckMessageValid" classname="com.fca.uconnect.global.PublishAckMessageTest" time="0.679"/>
+  <system-out><![CDATA[Response Passes Because it was set to:  SUCCESS
+Response was not defaulted to:  UNRECOGNIZED
+A Failure reason Code has been Set: 200
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

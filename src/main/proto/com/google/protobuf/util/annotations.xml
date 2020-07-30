@@ -1,0 +1,5 @@
+<root>
+    <item name='com.google.protobuf.util.JsonFormat'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

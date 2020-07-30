@@ -1,0 +1,227 @@
+fThe Message  Passes Because Api Version was set and not null or empty:  <ByteString@2f6f6e2f size=3>
+.Response was not defaulted to:  UNRECOGNIZED
+)A Failure reason Code has been Set: 200
+8So a proper message for this use case looks like this: 
+
+timestamp: 1579146311
+messageId: 1000000
+messages {
+  ackMessage {
+    failureReasonCode: 200
+  }
+}
+apiVersionId: "3.8"
+
+?Response Passes Because there non zero timestamp:  1579146455
+?Response Passes Because there non zero timestamp:  1579146455
+.Response was not defaulted to:  UNRECOGNIZED
+8So a proper message for this use case looks like this: 
+
+timestamp: 1579146455
+*sessionId: "UmVhc29uYWJsZSBTZXNzaW9uIElE"
+messageId: 1000001
+correlationId: 1000000
+messages {
+  chargeNowRequest {
+  }
+}
+apiVersionId: "3.8"
+
+AThis Message has Passed because all required fields are present
+8So a proper message for this use case looks like this: 
+
+timestamp: 1579146455
+*sessionId: "UmVhc29uYWJsZSBTZXNzaW9uIElE"
+messageId: 1000001
+correlationId: 1000000
+messages {
+  chargeNowResponse {
+    response: FAILURE
+  }
+}
+apiVersionId: "3.8"
+
+AThis Message has Passed because all required fields are present
+8So a proper message for this use case looks like this: 
+
+timestamp: 1579146455
+*sessionId: "UmVhc29uYWJsZSBTZXNzaW9uIElE"
+messageId: 1000001
+correlationId: 1000000
+messages {
+  chargeNowResponse {
+  }
+}
+apiVersionId: "3.8"
+
+
+	AThis Message has Passed because all required fields are present
+
+	8So a proper message for this use case looks like this: 
+
+	
+
+	timestamp: 1579146455
+
+	*sessionId: "UmVhc29uYWJsZSBTZXNzaW9uIElE"
+
+	messageId: 1000001
+
+	correlationId: 1000000
+
+	messages {
+
+	  chargeNowResponse {
+
+	     response: UNPLUGGED_FAILURE
+
+	  }
+
+	}
+
+	apiVersionId: "3.8"
+
+	
+>Response Passes Because there non zero timestamp:  123445678
+.Response was not defaulted to:  UNRECOGNIZED
+8So a proper message for this use case looks like this: 
+
+timestamp: 123445678
+
+8So a proper message for this use case looks like this: 
+
+timestamp: 1579146455
+*sessionId: "UmVhc29uYWJsZSBTZXNzaW9uIElE"
+messageId: 1000001
+correlationId: 1000000
+messages {
+  chargeDataPublish {
+    eventTrigger: CHARGE_START
+    plugStatus {
+      isPluggedIn: true
+      chargeLevel {
+        chargeLevel: LEVEL_2
+*        Int_EstimatedTimeToCharge_LEV2: 4
+      }
+    }
+    rangeEstimates {
+      estimatedRange: 10
+      totalRange: 300
+    }
+    chargeStatus: CHARGING
+    BatteryLevel: 45.5
+  }
+}
+apiVersionId: "3.8"
+
+8So a proper message for this use case looks like this: 
+
+timestamp: 1579146455
+*sessionId: "UmVhc29uYWJsZSBTZXNzaW9uIElE"
+messageId: 1000001
+correlationId: 1000000
+messages {
+  chargeDataPublish {
+#    eventTrigger: CHARGE_COMPLETED
+    plugStatus {
+      isPluggedIn: true
+      chargeLevel {
+        chargeLevel: LEVEL_2
+*        Int_EstimatedTimeToCharge_LEV2: 4
+      }
+    }
+    rangeEstimates {
+      estimatedRange: 10
+      totalRange: 300
+    }
+"    chargeStatus: CHARGE_COMPLETE
+    BatteryLevel: 45.5
+    chargeSchedulesV2 {
+      EnableScheduleType: true
+      scheduleType: CHARGE
+      StartTime: 1200
+      ChargeToFull: true
+      scheduledDays {
+        isSunday: true
+        isFriday: true
+        isSaturday: true
+      }
+    }
+  }
+}
+apiVersionId: "3.8"
+
+8So a proper message for this use case looks like this: 
+
+timestamp: 1579146455
+*sessionId: "UmVhc29uYWJsZSBTZXNzaW9uIElE"
+messageId: 1000001
+correlationId: 1000000
+messages {
+  chargeDataPublish {
+%    eventTrigger: CHARGE_INTERRUPTED
+    plugStatus {
+      isPluggedIn: true
+      chargeLevel {
+        chargeLevel: LEVEL_2
+*        Int_EstimatedTimeToCharge_LEV2: 4
+      }
+    }
+    rangeEstimates {
+      estimatedRange: 10
+      totalRange: 300
+    }
+#    chargeStatus: CHARGE_INTERRUPT
+    BatteryLevel: 45.5
+    chargeSchedulesV2 {
+      EnableScheduleType: true
+      scheduleType: CHARGE
+      StartTime: 1200
+      ChargeToFull: true
+      scheduledDays {
+        isSunday: true
+        isFriday: true
+        isSaturday: true
+      }
+    }
+  }
+}
+apiVersionId: "3.8"
+
+8So a proper message for this use case looks like this: 
+
+timestamp: 1579146455
+*sessionId: "UmVhc29uYWJsZSBTZXNzaW9uIElE"
+messageId: 1000001
+correlationId: 1000000
+messages {
+  chargeDataPublish {
+    eventTrigger: CHARGE_START
+    plugStatus {
+      isPluggedIn: true
+      chargeLevel {
+        chargeLevel: LEVEL_2
+*        Int_EstimatedTimeToCharge_LEV2: 4
+      }
+    }
+    rangeEstimates {
+      estimatedRange: 10
+      totalRange: 300
+    }
+    chargeStatus: CHARGING
+    BatteryLevel: 45.5
+    chargeSchedulesV2 {
+      EnableScheduleType: true
+      scheduleType: CHARGE
+      StartTime: 1200
+      ChargeToFull: true
+      scheduledDays {
+        isSunday: true
+        isFriday: true
+        isSaturday: true
+      }
+    }
+  }
+}
+apiVersionId: "3.8"
+

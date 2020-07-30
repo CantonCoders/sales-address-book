@@ -1,0 +1,103 @@
+group 'com.example.tutorial'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'com.google.protobuf'
+apply plugin: 'idea'
+
+
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.protobuf:protobuf-java:3.5.1'
+    // util dependency to convert to JSON
+  compile files('C:/Work/Tools/Protobuf/protoc-gen-doc-1.0.0/protoc-gen-doc.exe')
+    compile 'com.google.protobuf:protobuf-java-util:3.5.1'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.fusesource.mqtt-client:mqtt-client:1.12'
+    // https://mvnrepository.com/artifact/org.xerial.snappy/snappy-java
+    compile group: 'org.xerial.snappy', name: 'snappy-java', version: '1.1.7.3'
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+     // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+     compile group: 'io.cucumber', name: 'cucumber-java', version: '5.4.0'
+    testCompile 'io.cucumber:cucumber-java:5.6.0'
+    testCompile 'io.cucumber:cucumber-junit:5.6.0'
+    testCompile 'junit:junit:4.13'
+    testImplementation 'junit:junit:4.13'
+    testCompile group: 'org.skyscreamer', name: 'jsonassert', version: '1.5.0'
+
+}
+
+sourceSets {
+    src {
+        main {
+            java {
+            allSource
+            }
+        }
+    }
+}
+
+protobuf {
+    // Configure the protoc executable
+    protoc {
+        // Download from repositories
+        artifact = 'com.google.protobuf:protoc:3.5.1'
+    }
+    plugins {
+        doc {
+            path = './protoc-gen-doc.exe'
+        }
+    }
+
+}
+javadoc {
+    source = "${buildDir}/generated/"
+    include( "**/*.java" )
+
+    //
+
+
+
+
+}
+
+test {
+    useJUnit()
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+
+    // creating javadoc task for test code
+
+    reports {
+        junitXml.enabled = false
+        html.enabled = true
+    }
+
+    task testJavadoc(type: Javadoc) {
+        source = sourceSets.test.allJava
+        classpath = sourceSets.test.compileClasspath
+        // if not changed the destinationDir, the javadoc for production code is overridden.
+
+        destinationDir = file("${buildDir}/docs/testjavadoc")
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.5'
+      
+
+
+    }
+}
+
