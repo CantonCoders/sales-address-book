@@ -19,32 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37eeec34-5ce4-444e-b3cc-3c81212f03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tutorial/AddOnePersonWithOneSpouseRelativeArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sales-address-book.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sales-address-book.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/AddOnePersonWithOneSpouseRelative.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/AddOnePersonWithOneSpouseRelative.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/tutorial/AddOnePersonWithOneSpouseRelativeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/tutorial/AddOnePersonWithOneSpouseRelativeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fca.uconnect.global.PublishAckMessageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fca.uconnect.global.PublishChargeNowRequestTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fca.uconnect.global.PublishChargeNowResponseFailTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fca.uconnect.global.PublishChargeNowResponseSuccessTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fca.uconnect.global.PublishChargeNowResponseUnpluggedTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fca.uconnect.global.PublishKeepAliveMessageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.fca.uconnect.global.PublishPhevV1EventChargeStartedTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tutorial/AddOnePersonWithOneSpouseRelative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tutorial/AddOnePersonWithOneSpouseRelative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tutorial/AddOnePersonWithOneSpouseRelativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tutorial/AddOnePersonWithOneSpouseRelativeTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="37eeec34-5ce4-444e-b3cc-3c81212f03c1" name="Default Changelist" comment="Skeleton Completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -350,8 +325,16 @@
       <workItem from="1596114944701" duration="3238000" />
       <workItem from="1596118445639" duration="180000" />
       <workItem from="1596123622270" duration="4704000" />
-      <workItem from="1596201763827" duration="2328000" />
+      <workItem from="1596201763827" duration="2684000" />
     </task>
+    <task id="LOCAL-00001" summary="Skeleton Completed">
+      <created>1596207882145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596207882148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +356,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Global_API_Update" />
     </ignored-roots>
+    <MESSAGE value="Skeleton Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skeleton Completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="382" key="#Notifications" timestamp="1596203015003">
@@ -425,31 +410,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="472" y="316" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596203187750" />
-    <state width="935" height="362" key="GridCell.Tab.0.bottom" timestamp="1596203783300">
+    <state width="935" height="362" key="GridCell.Tab.0.bottom" timestamp="1596207747549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596203783300" />
+    <state width="935" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596207747549" />
     <state width="1877" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@3840.0.1920.1040" timestamp="1595870830460" />
     <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1806.1080@0.0.1920.1040" timestamp="1592236351589" />
     <state width="1877" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593542068526" />
-    <state width="935" height="362" key="GridCell.Tab.0.center" timestamp="1596203783300">
+    <state width="935" height="362" key="GridCell.Tab.0.center" timestamp="1596207747549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="362" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596203783300" />
+    <state width="935" height="362" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596207747549" />
     <state width="1877" height="362" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@3840.0.1920.1040" timestamp="1595870830460" />
     <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1806.1080@0.0.1920.1040" timestamp="1592236351589" />
     <state width="1877" height="362" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593542068525" />
-    <state width="935" height="362" key="GridCell.Tab.0.left" timestamp="1596203783299">
+    <state width="935" height="362" key="GridCell.Tab.0.left" timestamp="1596207747549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="362" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596203783299" />
+    <state width="935" height="362" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596207747549" />
     <state width="1877" height="362" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@3840.0.1920.1040" timestamp="1595870830460" />
     <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1806.1080@0.0.1920.1040" timestamp="1592236351589" />
     <state width="1877" height="362" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593542068525" />
-    <state width="935" height="362" key="GridCell.Tab.0.right" timestamp="1596203783300">
+    <state width="935" height="362" key="GridCell.Tab.0.right" timestamp="1596207747549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="362" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596203783300" />
+    <state width="935" height="362" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@0.0.1920.1040" timestamp="1596207747549" />
     <state width="1877" height="362" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1806.1080/3840.0.1920.1040@3840.0.1920.1040" timestamp="1595870830460" />
     <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1806.1080@0.0.1920.1040" timestamp="1592236351589" />
     <state width="1877" height="362" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593542068525" />
