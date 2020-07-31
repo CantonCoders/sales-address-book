@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fca.uconnect.global.PublishChargeNowResponseUnpluggedTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-17T16:12:57" hostname="CITMN5CG81002XZ" time="0.0">
-  <properties/>
-  <testcase name="isChargeNowUnpluggedFailureResponseValid" classname="com.fca.uconnect.global.PublishChargeNowResponseUnpluggedTest" time="0.0"/>
-  <system-out><![CDATA[This Message has Passed because all required fields are present
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
